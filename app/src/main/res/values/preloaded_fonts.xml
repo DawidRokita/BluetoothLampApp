@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/aguafina_script</item>
+        <item>@font/allerta</item>
+        <item>@font/almendra_display</item>
+        <item>@font/archivo_black</item>
+        <item>@font/asset</item>
+        <item>@font/audiowide</item>
+        <item>@font/beth_ellen</item>
+        <item>@font/nunito_sans_semibold</item>
+        <item>@font/playfair_display</item>
+    </array>
+</resources>
