@@ -21,7 +21,7 @@ import java.util.UUID;
 
 public class control extends AppCompatActivity {
 
-    private Button settings, on_btn, off_btn, plus_btn, minus_btn, twenty_prc_btn, fivety_prc_btn, seventyfive_prc_btn, hundred_prc_btn, DiscoBtn;
+    private Button button69, settings, on_btn, off_btn, plus_btn, minus_btn, twenty_prc_btn, fivety_prc_btn, seventyfive_prc_btn, hundred_prc_btn, DiscoBtn;
     String  tmpName, seekBarMsg, OnMsgStr, OffMsgStr, DiscoMsgStr;
     private SeekBar seekBar;
 
@@ -55,6 +55,18 @@ public class control extends AppCompatActivity {
         clickMethod(on_btn, OnMsgStr);
         clickMethod(off_btn, OffMsgStr);
         clickMethod(DiscoBtn, DiscoMsgStr);
+
+        button69.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(button69.getText().toString() == "siemano"){
+                    button69.setText("naura");
+                }else{
+                    button69.setText("siemano");
+                }
+
+            }
+        });
 
         changeBgOnClick();
 
@@ -96,6 +108,7 @@ public class control extends AppCompatActivity {
         hundred_prc_btn = (Button) findViewById(R.id.hundred_prc_btn);
         seekBar = (SeekBar) findViewById(R.id.seekBar);
         DiscoBtn = (Button) findViewById(R.id.DiscoBtn);
+        button69 = (Button) findViewById(R.id.button69);
     }
 
     private void getAllSettings(){
